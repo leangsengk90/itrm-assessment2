@@ -2,7 +2,7 @@
 # Destroy everything in prod: deployments -> infrastructures (including the ECR repositories and
 # all their images) -> remote-state. Nothing is recreated; run rebuild.sh to bring prod back
 # (the images then have to be built and pushed again before the services can start).
-#
+# 1
 # Pushing a change to this file on main runs it in GitHub Actions (Rebuild prod workflow).
 # Run locally with CONFIRM=destroy ./destroy.sh
 # Change note (edit to trigger a destroy): initial
