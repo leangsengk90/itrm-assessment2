@@ -242,3 +242,7 @@ run_number,run_id,mode,commit,event,phase,start,end,seconds,status
 32,38716284564,rebuild,99b96df,workflow_dispatch,Create deployments,2026-10-15T17:17:24+0700,2026-10-15T17:19:58+0700,154,ok
 32,38716284564,rebuild,99b96df,workflow_dispatch,Wait until healthy,2026-10-15T17:19:58+0700,2026-10-15T17:21:22+0700,84,ok
 32,38716284564,rebuild,99b96df,workflow_dispatch,Total,2026-10-15T16:53:49+0700,2026-10-15T17:21:22+0700,1653,success
+33,39088634234,destroy,837c4a1,workflow_dispatch,Destroy deployments,2026-10-18T09:02:32+0700,2026-10-18T09:20:53+0700,1101,ok
+33,39088634234,destroy,837c4a1,workflow_dispatch,Destroy infrastructures,2026-10-18T09:20:53+0700,2026-10-18T09:22:24+0700,91,ok
+33,39088634234,destroy,837c4a1,workflow_dispatch,Destroy remote-state,2026-10-18T09:22:24+0700,2026-10-18T09:22:48+0700,24,ok
+33,39088634234,destroy,837c4a1,workflow_dispatch,Total,2026-10-18T09:02:32+0700,2026-10-18T09:22:48+0700,1216,success

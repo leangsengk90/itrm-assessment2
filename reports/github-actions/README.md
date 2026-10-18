@@ -63,3 +63,18 @@ Pushing a change to `rebuild.sh` runs a full rebuild (destroy and recreate remot
 | Redeploy deployments | 2m 00s | 2m 00s | 2m 00s | – |
 | Wait until healthy | 3m 00s | 3m 00s | 3m 00s | – |
 | Total | 5m 00s | 5m 00s | 5m 00s | – |
+
+## Destroy runs
+
+| Run | Date | Commit | Result | Destroy deploy | Destroy infra | Destroy state | Total |
+|---|---|---|---|---|---|---|---|
+| [#33](runs/run-0033.md) | 2026-10-18 09:02 | `837c4a1` | success | 18m 21s | 1m 31s | 24s | 20m 16s |
+
+### Destroy statistics over 1 successful run(s)
+
+| Phase | Mean | Min | Max | SD |
+|---|---|---|---|---|
+| Destroy deployments | 18m 21s | 18m 21s | 18m 21s | – |
+| Destroy infrastructures | 1m 31s | 1m 31s | 1m 31s | – |
+| Destroy remote-state | 24s | 24s | 24s | – |
+| Total | 20m 16s | 20m 16s | 20m 16s | – |
